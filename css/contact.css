@@ -1,0 +1,10 @@
+/* contact.css — contact call-to-action and footer. */
+.contact{text-align:center;padding:96px 0}
+.contact h2{font-size:46px;font-weight:800;letter-spacing:-.02em;margin-bottom:16px}
+.contact p{color:var(--dim);font-size:19px;max-width:520px;margin:0 auto 34px}
+.cbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.cinfo{margin-top:40px;display:flex;gap:28px;justify-content:center;flex-wrap:wrap;font-family:var(--mono);font-size:15px;color:var(--dim)}
+.cinfo a:hover{color:var(--acc)}
+footer{border-top:1px solid var(--line);padding:34px 0;text-align:center}
+footer .f{font-family:var(--mono);font-size:14px;color:var(--dim2)}
+footer .f b{color:var(--acc)}

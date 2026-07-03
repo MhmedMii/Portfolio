@@ -1,0 +1,11 @@
+/* projects.css — the project cards grid, role line and tags. */
+.projs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.pcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px;transition:.2s}
+.pcard:hover{border-color:var(--acc);transform:translateY(-4px)}
+.pcard .ico{font-family:var(--mono);color:var(--acc);font-size:14px;margin-bottom:16px}
+.pcard h3{font-size:20px;font-weight:700;margin-bottom:8px}
+.pcard p{color:var(--dim);font-size:15px;line-height:1.55}
+.pcard .role{margin-top:14px;font-family:var(--mono);font-size:13px;color:var(--acc);display:flex;align-items:center;gap:8px}
+.pcard .role b{color:var(--dim);font-weight:500}
+.pcard .tags{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+.pcard .t{font-family:var(--mono);font-size:12px;color:var(--acc2);background:var(--bg2);border:1px solid var(--line);border-radius:6px;padding:5px 9px}

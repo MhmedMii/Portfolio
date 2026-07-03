@@ -1,0 +1,17 @@
+/* nav.css — sticky header, desktop links, and the mobile drawer. */
+header{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(10,15,20,.72);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{font-family:var(--mono);font-weight:700;font-size:21px;letter-spacing:.01em}
+.logo b{font-weight:700}
+.links{display:flex;gap:34px;font-family:var(--mono);font-size:15px;color:var(--dim)}
+.links a:hover{color:var(--acc)}
+.nav-cta{font-family:var(--mono);font-size:14.5px;color:var(--acc);border:1px solid var(--acc);border-radius:9px;padding:11px 18px;transition:.2s}
+.nav-cta:hover{background:var(--accsoft)}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:26px;height:2.5px;background:var(--ink);border-radius:2px}
+.drawer{position:fixed;inset:0;z-index:50;display:none}
+.drawer.open{display:block}
+.drawer-bd{position:absolute;inset:0;background:rgba(4,8,11,.6)}
+.drawer-panel{position:absolute;top:0;right:0;height:100%;width:78%;max-width:320px;background:var(--bg2);border-left:1px solid var(--line);padding:28px 26px;display:flex;flex-direction:column;gap:8px}
+.drawer-panel a{font-family:var(--mono);font-size:19px;padding:16px 6px;border-bottom:1px solid var(--line);color:var(--dim)}
+.drawer-x{align-self:flex-end;background:none;border:0;color:var(--ink);font-size:30px;cursor:pointer;margin-bottom:12px}
