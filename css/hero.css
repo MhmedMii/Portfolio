@@ -1,0 +1,24 @@
+/* hero.css — hero layout, buttons, stats and the terminal mock. */
+.hero{padding:72px 0 96px}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:56px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13.5px;color:var(--acc);border:1px solid var(--line);background:var(--accsoft);border-radius:999px;padding:9px 16px;margin-bottom:26px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 12px var(--acc)}
+.hero h1{font-size:60px;line-height:1.08;font-weight:800;letter-spacing:-.02em}
+.sub{margin-top:24px;font-size:20px;line-height:1.6;color:var(--dim);max-width:520px}
+.btns{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.b1{background:linear-gradient(100deg,var(--acc),var(--acc2));color:#051225;font-weight:700;font-family:var(--mono);padding:15px 26px;border-radius:10px;box-shadow:0 12px 40px rgba(59,130,246,.30);transition:.2s}
+.b1:hover{transform:translateY(-2px)}
+.b2{border:1px solid var(--line2);color:var(--ink);font-family:var(--mono);padding:15px 26px;border-radius:10px;transition:.2s}
+.b2:hover{border-color:var(--acc);color:var(--acc)}
+.stats{margin-top:52px;display:flex;gap:40px;flex-wrap:wrap}
+.stat .n{font-family:var(--mono);font-size:32px;font-weight:700}
+.stat .l{font-size:13.5px;color:var(--dim);margin-top:2px}
+.term{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.5)}
+.term-bar{display:flex;align-items:center;gap:9px;padding:15px 18px;border-bottom:1px solid var(--line)}
+.tb{width:12px;height:12px;border-radius:50%}
+.tb.r{background:#ff5f57}.tb.y{background:#febc2e}.tb.g{background:#28c840}
+.term-title{margin-left:12px;font-family:var(--mono);font-size:12.5px;color:var(--dim)}
+.term-body{padding:26px 24px;font-family:var(--mono);font-size:16px;line-height:2}
+.pr{color:var(--acc)}.out{color:var(--dim)}.str{color:var(--acc2)}
+.cursor{display:inline-block;width:9px;height:19px;background:var(--acc);vertical-align:-3px;animation:bl 1.1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}

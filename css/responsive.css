@@ -1,0 +1,17 @@
+/* responsive.css — breakpoints. Loaded last so it overrides the modules. */
+@media(max-width:900px){
+  .wrap{padding:0 22px}
+  .links,.nav-cta{display:none}
+  .burger{display:flex}
+  .hero-grid{grid-template-columns:1fr;gap:44px}
+  .hero h1{font-size:46px}
+  .about-grid{grid-template-columns:1fr;gap:28px}
+  .skills{grid-template-columns:1fr}
+  .xp{grid-template-columns:1fr;gap:12px;padding:26px 0}
+  .projs{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr;gap:34px}
+  .sec{padding:64px 0}
+  .sec-h{font-size:31px}
+  .contact h2{font-size:34px}
+}
+@media(max-width:420px){.hero h1{font-size:38px}.stats{gap:26px}}

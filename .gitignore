@@ -1,0 +1,6 @@
+.vercel
+.env*
+previews/
+Portfolio.TripleM.zip
+node_modules/
+.DS_Store
