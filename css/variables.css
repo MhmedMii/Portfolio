@@ -1,7 +1,7 @@
 /* variables.css — design tokens (colors, fonts). Change the palette here only. */
 :root{
-  --bg:#0a0f14;--bg2:#0c1319;--panel:#0e151c;--line:#1c2831;--line2:#233240;
-  --ink:#e6edf3;--dim:#8b9aa7;--dim2:#6a7783;
-  --acc:#3B82F6;--acc2:#38BDF8;--accsoft:rgba(59,130,246,.12);
+  --bg:#f7faff;--bg2:#edf4ff;--panel:#ffffff;--line:#dce6f4;--line2:#c8d9ee;
+  --ink:#13284d;--dim:#62718a;--dim2:#8190a5;
+  --acc:#2879dd;--acc2:#1559ba;--accsoft:rgba(40,121,221,.10);
   --mono:'JetBrains Mono',monospace;
 }

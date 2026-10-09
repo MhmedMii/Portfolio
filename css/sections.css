@@ -1,21 +1,22 @@
 /* sections.css — shared section headings + the about and skills blocks. */
-.sec{padding:88px 0}
-.sec-k{font-family:var(--mono);font-size:14px;color:var(--acc);letter-spacing:.06em;margin-bottom:14px}
-.sec-k::before{content:"// "}
-.sec-h{font-size:40px;font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
-.sec-lead{color:var(--dim);font-size:18px;max-width:640px;line-height:1.65}
+.sec{padding:110px 0}.sec:nth-of-type(even){background:rgba(237,244,255,.48)}
+.sec-k{font-size:13px;color:var(--acc);font-weight:800;letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}
+.sec-k::before{content:"";display:inline-block;width:24px;height:2px;margin:0 10px 4px 0;background:var(--acc)}
+.sec-h{font-size:clamp(2.1rem,3.5vw,3.25rem);line-height:1.08;font-weight:800;letter-spacing:-.06em;margin-bottom:16px;text-wrap:balance}
+.sec-lead{color:var(--dim);font-size:17px;max-width:660px;line-height:1.7}
 /* about */
-.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:start;margin-top:36px}
-.about-grid p{color:var(--dim);font-size:18.5px;line-height:1.75;margin-bottom:18px}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:72px;align-items:start;margin-top:40px}
+.about-grid p{color:var(--dim);font-size:17px;line-height:1.8;max-width:690px;margin-bottom:18px}
 .about-grid p b{color:var(--ink);font-weight:600}
-.factcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px}
-.factcard .row{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.factcard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--acc);border-radius:14px;padding:21px 26px;box-shadow:0 18px 34px rgba(21,89,186,.07)}
+.factcard .row{display:flex;justify-content:space-between;gap:18px;padding:14px 0;border-bottom:1px solid var(--line);font-size:14px}
 .factcard .row:last-child{border-bottom:0}
-.factcard .k{color:var(--dim);font-family:var(--mono);font-size:13.5px}
+.factcard .k{color:var(--dim);font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
 .factcard .v{color:var(--ink);text-align:right}
 /* skills */
-.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
-.skcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px}
-.skcard h3{font-family:var(--mono);font-size:15px;color:var(--acc);margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.skcard{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:25px;box-shadow:0 12px 28px rgba(21,89,186,.06);transition:transform .2s,box-shadow .2s}
+.skcard:hover{transform:translateY(-4px);box-shadow:0 20px 35px rgba(21,89,186,.12)}
+.skcard h3{font-size:14px;color:var(--acc);margin-bottom:18px;font-weight:800}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
-.chip{font-size:14.5px;color:var(--ink);background:var(--bg2);border:1px solid var(--line2);border-radius:8px;padding:9px 14px}
+.chip{font-size:13px;font-weight:700;color:#465a79;background:var(--bg2);border:1px solid var(--line);border-radius:7px;padding:8px 11px}

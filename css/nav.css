@@ -1,17 +1,18 @@
-/* nav.css — sticky header, desktop links, and the mobile drawer. */
-header{position:sticky;top:0;z-index:40;backdrop-filter:blur(12px);background:rgba(10,15,20,.72);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
-.logo{font-family:var(--mono);font-weight:700;font-size:21px;letter-spacing:.01em}
-.logo b{font-weight:700}
-.links{display:flex;gap:34px;font-family:var(--mono);font-size:15px;color:var(--dim)}
-.links a:hover{color:var(--acc)}
-.nav-cta{font-family:var(--mono);font-size:14.5px;color:var(--acc);border:1px solid var(--acc);border-radius:9px;padding:11px 18px;transition:.2s}
-.nav-cta:hover{background:var(--accsoft)}
+/* nav.css — light, professional navigation and mobile drawer. */
+header{position:sticky;top:0;z-index:40;backdrop-filter:blur(16px);background:rgba(255,255,255,.82);border-bottom:1px solid rgba(220,230,244,.78)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:82px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:18px;letter-spacing:-.04em;color:var(--acc)}
+.logo-mark{display:grid;place-items:center;width:31px;height:31px;border-radius:9px;background:var(--acc);color:#fff;font-family:var(--mono);font-size:15px;letter-spacing:0}
+.links{display:flex;gap:29px;font-size:14px;font-weight:700;color:#29374f}
+.links a{position:relative;transition:color .2s}
+.links a::after{content:"";position:absolute;bottom:-10px;left:0;width:0;height:2px;border-radius:2px;background:var(--acc);transition:width .2s}
+.links a:hover{color:var(--acc)}.links a:hover::after{width:100%}
+.nav-cta{font-size:14px;font-weight:800;color:var(--acc);border:1px solid var(--acc);border-radius:10px;padding:11px 17px;transition:.2s}
+.nav-cta span{margin-left:5px}.nav-cta:hover{background:var(--acc);color:#fff;transform:translateY(-1px)}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .burger span{width:26px;height:2.5px;background:var(--ink);border-radius:2px}
-.drawer{position:fixed;inset:0;z-index:50;display:none}
-.drawer.open{display:block}
-.drawer-bd{position:absolute;inset:0;background:rgba(4,8,11,.6)}
-.drawer-panel{position:absolute;top:0;right:0;height:100%;width:78%;max-width:320px;background:var(--bg2);border-left:1px solid var(--line);padding:28px 26px;display:flex;flex-direction:column;gap:8px}
-.drawer-panel a{font-family:var(--mono);font-size:19px;padding:16px 6px;border-bottom:1px solid var(--line);color:var(--dim)}
+.drawer{position:fixed;inset:0;z-index:50;display:none}.drawer.open{display:block}
+.drawer-bd{position:absolute;inset:0;background:rgba(19,40,77,.38)}
+.drawer-panel{position:absolute;top:0;right:0;height:100%;width:78%;max-width:320px;background:#fff;border-left:1px solid var(--line);padding:28px 26px;display:flex;flex-direction:column;gap:8px}
+.drawer-panel a{font-size:18px;font-weight:700;padding:16px 6px;border-bottom:1px solid var(--line);color:var(--dim)}
 .drawer-x{align-self:flex-end;background:none;border:0;color:var(--ink);font-size:30px;cursor:pointer;margin-bottom:12px}

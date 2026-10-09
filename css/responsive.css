@@ -1,17 +1,22 @@
 /* responsive.css — breakpoints. Loaded last so it overrides the modules. */
 @media(max-width:900px){
-  .wrap{padding:0 22px}
+  .wrap{padding:0 25px}
   .links,.nav-cta{display:none}
   .burger{display:flex}
-  .hero-grid{grid-template-columns:1fr;gap:44px}
-  .hero h1{font-size:46px}
+  .hero{min-height:0;padding:105px 0 76px}.hero-grid{grid-template-columns:1fr;gap:45px}.hero h1{font-size:clamp(3rem,9.5vw,4.5rem)}
+  .profile-card{justify-self:start;width:min(100%,420px)}
   .about-grid{grid-template-columns:1fr;gap:28px}
-  .skills{grid-template-columns:1fr}
+  .skills{grid-template-columns:repeat(2,1fr)}
   .xp{grid-template-columns:1fr;gap:12px;padding:26px 0}
   .projs{grid-template-columns:1fr}
-  .two{grid-template-columns:1fr;gap:34px}
+  .pcard:first-child{grid-column:auto}.two{grid-template-columns:1fr;gap:34px}
   .sec{padding:64px 0}
   .sec-h{font-size:31px}
   .contact h2{font-size:34px}
 }
-@media(max-width:420px){.hero h1{font-size:38px}.stats{gap:26px}}
+@media(max-width:560px){
+  .wrap{padding:0 19px}.nav{height:72px}.logo{font-size:16px}.hero{padding-top:70px}.hero h1{font-size:2.8rem}.sub{font-size:16px}
+  .profile-art{min-height:290px}.monogram{width:140px;height:140px;font-size:42px}.profile-card{padding:12px}.profile-copy{padding:14px 4px 2px}
+  .sec{padding:58px 0}.sec-h{font-size:2.2rem}.skills,.certs{grid-template-columns:1fr}.pcard{min-height:0;padding:23px}.pcard:first-child h3{font-size:25px}
+  .xp{padding-left:20px}.xp::before{top:34px}.xp h3{font-size:19px}.contact{padding:74px 0}.contact h2{font-size:2.55rem}
+}

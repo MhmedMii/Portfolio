@@ -1,13 +1,15 @@
 /* base.css — reset, document, shared utilities and background effects. */
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:'Sora',sans-serif;overflow-x:hidden;line-height:1.5}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{background:var(--bg);color:var(--ink);font-family:'Manrope',sans-serif;overflow-x:hidden;line-height:1.5}
 a{color:inherit;text-decoration:none}
-.grad{background:linear-gradient(100deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.wrap{max-width:1160px;margin:0 auto;padding:0 40px}
+.wrap{max-width:1320px;margin:0 auto;padding:0 48px}
 .mono{font-family:var(--mono)}
-section{position:relative;z-index:2}
+section{position:relative;z-index:2;scroll-margin-top:80px}
+.skip-link{position:fixed;z-index:100;top:10px;left:10px;padding:10px 14px;border-radius:8px;background:var(--ink);color:#fff;transform:translateY(-150%);transition:transform .2s}
+.skip-link:focus{transform:translateY(0)}
+a:focus-visible,button:focus-visible{outline:3px solid rgba(40,121,221,.35);outline-offset:3px}
 .bgfx{position:fixed;inset:0;z-index:0;pointer-events:none;background:
-  radial-gradient(55% 40% at 88% 6%,rgba(59,130,246,.12),transparent),
-  radial-gradient(45% 35% at 6% 92%,rgba(56,189,248,.08),transparent)}
-.gridfx{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;opacity:.14;mask-image:radial-gradient(circle at 50% 20%,#000,transparent 80%)}
+  radial-gradient(52% 36% at 90% 6%,rgba(71,145,234,.13),transparent),
+  radial-gradient(42% 30% at 2% 80%,rgba(148,197,255,.12),transparent)}
+.gridfx{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(40,121,221,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(40,121,221,.05) 1px,transparent 1px);background-size:72px 72px;opacity:.22;mask-image:radial-gradient(circle at 50% 14%,#000,transparent 66%)}

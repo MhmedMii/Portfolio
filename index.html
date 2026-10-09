@@ -7,19 +7,20 @@
 <meta name="description" content="Mohammed Mahmoud (Triple M) — Software Engineer. Work, experience, skills and education.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <div class="bgfx"></div><div class="gridfx"></div>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <header>
   <div class="wrap nav">
-    <div class="logo">Triple<span class="grad">M</span></div>
+    <a class="logo" href="#home" aria-label="Mohammed Mahmoud home"><span class="logo-mark">M</span><span>Mohammed Mahmoud</span></a>
     <nav class="links">
-      <a href="#projects">work</a><a href="#experience">experience</a><a href="#skills">skills</a><a href="#about">about</a><a href="#certs">education</a>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
     </nav>
-    <a href="#contact" class="nav-cta">./contact</a>
+    <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
     <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -28,21 +29,38 @@
   <div class="drawer-bd" data-close></div>
   <div class="drawer-panel">
     <button class="drawer-x" data-close aria-label="Close">×</button>
-    <a href="#projects" data-close>work</a>
-    <a href="#experience" data-close>experience</a>
-    <a href="#skills" data-close>skills</a>
-    <a href="#about" data-close>about</a>
-    <a href="#certs" data-close>education</a>
-    <a href="#contact" data-close>./contact</a>
+    <a href="#home" data-close>Home</a>
+    <a href="#about" data-close>About</a>
+    <a href="#experience" data-close>Experience</a>
+    <a href="#projects" data-close>Projects</a>
+    <a href="#skills" data-close>Skills</a>
+    <a href="#contact" data-close>Contact</a>
   </div>
 </div>
 
+<main id="main-content">
+<!-- HERO -->
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div class="hero-copy">
+    <p class="eyebrow"><span></span>Software Engineer · Backend Development</p>
+    <h1>Building reliable backend systems people can trust.</h1>
+    <p class="sub">I'm <b>Mohammed Mahmoud</b>, a software engineer focused on backend development, building dependable APIs, database-driven applications and scalable systems.</p>
+    <div class="hero-stack" aria-label="Core skills"><span>Backend Development</span><span>SQL &amp; Databases</span><span>REST APIs</span><span>Docker</span></div>
+    <div class="btns"><a class="b1" href="#projects">View projects <span>→</span></a><a class="b2" href="#contact">Let's talk <span>↗</span></a></div>
+  </div>
+  <aside class="profile-card" aria-label="Mohammed Mahmoud, Software Engineer focused on backend development">
+    <div class="profile-art"><div class="profile-grid"></div><div class="monogram">MM</div><span class="art-dot d1"></span><span class="art-dot d2"></span><span class="art-dot d3"></span></div>
+    <div class="profile-copy"><strong>Mohammed Mahmoud</strong><span>Software Engineer · Backend Development</span></div>
+  </aside>
+</div></section>
+
 <!-- WORK / PROJECTS -->
-<section class="sec" id="projects" style="padding-top:64px"><div class="wrap">
+<section class="sec" id="projects"><div class="wrap">
   <div class="sec-k">work</div>
   <h2 class="sec-h">Projects I've worked on.</h2>
-  <p class="sec-lead">Real projects I contributed to hands-on — across software testing / QA, AI web development and delivery. More details and visuals on request.</p>
+  <p class="sec-lead">Real projects I contributed to hands-on — across software engineering, backend development, testing, AI web development and delivery.</p>
   <div class="projs">
+    <div class="pcard"><div class="ico">// customer operations</div><h3>Navita Edu Walk-In</h3><p>Designed and built a walk-in reception platform that centralizes new-client intake, follow-ups, visa applications and other services, with real-time progress visibility.</p><div class="role">▹ <b>Problem solved:</b> Faster, clearer reception for clients and actionable KPI visibility for managers.</div><div class="tags"><span class="t">React</span><span class="t">Next.js</span><span class="t">SQL</span><span class="t">Docker</span><span class="t">Neon</span><span class="t">Vercel</span><span class="t">Claude Code</span></div></div>
     <div class="pcard"><div class="ico">// qa · testing</div><h3>GBG CRM</h3><p>QA and business analysis on the company's CRM — requirements review, test cases and functional testing.</p><div class="role">▹ <b>My role:</b> QA / Business Analyst (GBG)</div><div class="tags"><span class="t">QA</span><span class="t">Testing</span><span class="t">BA</span></div></div>
     <div class="pcard"><div class="ico">// ai web</div><h3>AI-Powered Websites</h3><p>Three production websites with AI integration, REST APIs and databases — built and deployed end-to-end.</p><div class="role">▹ <b>My role:</b> Developer — built & shipped (NXTNOVA)</div><div class="tags"><span class="t">AI</span><span class="t">REST</span><span class="t">Web</span></div></div>
     <div class="pcard"><div class="ico">// delivery</div><h3>Motergy</h3><p>Coordinated development and delivery, tracking tasks and progress in Trello.</p><div class="role">▹ <b>My role:</b> IT Project Manager (50Studios)</div><div class="tags"><span class="t">PM</span><span class="t">Trello</span></div></div>
@@ -58,8 +76,17 @@
   <h2 class="sec-h">Where I've delivered.</h2>
   <div class="exp">
     <div class="xp">
+      <div><div class="when">Jun 2026 – Present</div><div class="co">Navita Edu</div></div>
+      <div><h3>Software Engineer</h3><ul>
+        <li>Designed and developed the Walk-In web application to make customer reception smoother, clearer and more welcoming.</li>
+        <li>Centralized new-client intake, follow-ups, visa applications and other services with live status updates, so employees can work without fragmented communication.</li>
+        <li>Built KPI tracking that gives managers real-time visibility into employee performance, customer progress and operational updates.</li>
+        <li>Delivered with React, Next.js, SQL, Docker, Neon and Vercel, using Claude Code in the development workflow.</li>
+      </ul></div>
+    </div>
+    <div class="xp">
       <div><div class="when">Jun 2026 · ~60 hrs</div><div class="co">GBG</div></div>
-      <div><h3>QA / Business Analysis On Company's - CRM</h3><ul>
+      <div><h3>CRM Testing &amp; Business Analysis</h3><ul>
         <li>Requirements Review, Test cases and functional testing.</li>
         <li>Managed end-to-end security testing workflow.</li>
       </ul></div>
@@ -74,7 +101,7 @@
     </div>
     <div class="xp">
       <div><div class="when">Freelance · Ongoing</div><div class="co">Independent</div></div>
-      <div><h3>Freelance Software Engineer (QA)</h3><ul>
+      <div><h3>Freelance Software Tester</h3><ul>
         <li>Manual and functional testing for web and app products — writing test cases, reporting bugs and verifying fixes.</li>
         <li>Focused on reliability, edge cases and release readiness across the SDLC.</li>
       </ul></div>
@@ -95,10 +122,10 @@
   <div class="sec-k">skills</div>
   <h2 class="sec-h">The stack I work with.</h2>
   <div class="skills">
-    <div class="skcard"><h3>$ testing / qa</h3><div class="chips">
+    <div class="skcard"><h3>$ testing experience</h3><div class="chips">
       <span class="chip">Manual Testing</span><span class="chip">Functional Testing</span><span class="chip">Test Cases</span><span class="chip">Bug Reporting</span><span class="chip">Business Analysis</span></div></div>
-    <div class="skcard"><h3>$ development</h3><div class="chips">
-      <span class="chip">Python</span><span class="chip">Flutter</span><span class="chip">SQL</span><span class="chip">REST APIs</span><span class="chip">Databases</span></div></div>
+    <div class="skcard"><h3>$ backend &amp; development</h3><div class="chips">
+      <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">REST APIs</span><span class="chip">Databases</span><span class="chip">Docker</span><span class="chip">Next.js</span></div></div>
     <div class="skcard"><h3>$ security</h3><div class="chips">
       <span class="chip">Kali Linux</span><span class="chip">Ethical Hacking</span><span class="chip">Security+</span><span class="chip">Linux+</span><span class="chip">CCNA</span></div></div>
     <div class="skcard"><h3>$ ai</h3><div class="chips">
@@ -111,16 +138,16 @@
 <!-- ABOUT -->
 <section class="sec" id="about"><div class="wrap">
   <div class="sec-k">about</div>
-  <h2 class="sec-h">Software Engineer / QA .</h2>
+  <h2 class="sec-h">Software Engineer in backend development.</h2>
   <div class="about-grid">
     <div>
-      <p>I'm <b>Mohammed Mahmoud</b> — also known as <b>Triple&nbsp;M</b> — a <b>Software Engineer / QA .</b> I make sure products actually work: testing, catching bugs and validating quality across the full development lifecycle.</p>
-      <p>Being an engineer who also <b>builds</b> — AI-powered web apps with REST APIs, AI features and databases — makes my testing sharper: I know where software breaks. I've also run QA & business analysis on production systems and coordinated real projects as an IT Project Manager.</p>
+      <p>I'm <b>Mohammed Mahmoud</b> — also known as <b>Triple&nbsp;M</b> — a <b>Software Engineer</b> focused on backend development. I build dependable, customer-focused applications that solve real operational problems.</p>
+      <p>I develop backend skills through <b>REST APIs, SQL, databases, Docker and deployment</b>, with hands-on experience building AI-powered web applications and integrating data-driven functionality.</p>
       <p>My background in <b>cybersecurity</b> (CompTIA Security+, Linux+, ethical hacking with Kali Linux) means I build with a security-first mindset by default.</p>
     </div>
     <div class="factcard">
-      <div class="row"><span class="k">role</span><span class="v">Software Engineer / QA </span></div>
-      <div class="row"><span class="k">focus</span><span class="v">QA · AI Web · Security </span></div>
+      <div class="row"><span class="k">role</span><span class="v">Software Engineer</span></div>
+      <div class="row"><span class="k">currently learning</span><span class="v">Backend · APIs · Databases</span></div>
       <div class="row"><span class="k">degree</span><span class="v">BSc Computer Eng. (Kuwait) </span></div>
       <div class="row"><span class="k">languages</span><span class="v">Arabic · English</span></div>
       <div class="row"><span class="k">status</span><span class="v" style="color:var(--acc)">available</span></div>
@@ -152,14 +179,15 @@
 
 <!-- CONTACT -->
 <section class="contact" id="contact"><div class="wrap">
-  <div class="sec-k" style="text-align:center">contact</div>
+  <div class="sec-k">contact</div>
   <h2>Let's build something.</h2>
-  <p>Open to software ِEngineer / QA and freelance work. The fastest way to reach me is email.</p>
+  <p>Open to software engineering and backend development opportunities. The fastest way to reach me is email.</p>
   <div class="cbtns">
     <a class="b1" href="mailto:Mohammed.kw97@icloud.com">Email me →</a>
     <a class="b2" href="tel:+96594979743">Call →</a>
   </div>
 </div></section>
+</main>
 
 <footer><div class="wrap f">© 2026 <b>Triple M</b> · Mohammed Mahmoud — Software Engineer</div></footer>
 
