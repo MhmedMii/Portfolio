@@ -1,4 +1,18 @@
 /* variables.css — design tokens (colors, fonts). Change the palette here only. */
+@font-face {
+  font-family:'Manrope';
+  font-style:normal;
+  font-weight:400 800;
+  font-display:swap;
+  src:url('../assets/fonts/manrope-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family:'JetBrains Mono';
+  font-style:normal;
+  font-weight:400 700;
+  font-display:swap;
+  src:url('../assets/fonts/jetbrains-mono-latin.woff2') format('woff2');
+}
 :root{
   --bg:#f7faff;--bg2:#edf4ff;--panel:#ffffff;--line:#dce6f4;--line2:#c8d9ee;
   --ink:#13284d;--dim:#62718a;--dim2:#8190a5;
