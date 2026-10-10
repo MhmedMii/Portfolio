@@ -25,8 +25,6 @@ My personal portfolio brings together the projects I've contributed to, my profe
 | **Waypoint — Student Services Platform** | Developed bilingual student intake, counselor assignment, follow-ups, visa and exam workflows and management screens. [Explore the public demo](https://waypoint-student-services-demo.vercel.app/) · [Source code](https://github.com/MhmedMii/waypoint-student-services-demo). |
 | **FORM — Employee Request System** | Built a bilingual React and Next.js request workflow with conditional questions, validation, browser-based drafts and simulated receipts. [Try the public demo](https://form-request-demo.vercel.app/) · [Source code](https://github.com/MhmedMii/form-request-demo). |
 | **ARCTEX — Design Solutions** | Developed a five-page bilingual architecture website with responsive layouts, RTL support, themes, project previews and a client enquiry form integration. [Explore the public demo](https://arctex-indol.vercel.app/) · [Source code](https://github.com/MhmedMii/arctex). |
-| **Kuwait Laundries** | Built a Flutter and Dart student prototype with laundry listings, locations, rating widgets and bottom navigation. [Source code: Flutter-Project](https://github.com/MhmedMii/Flutter-Project). |
-| **Mohammed Mahmoud — Portfolio** | Built this responsive static website with project case studies, local assets, theme support and accessible navigation and dialogs. [Source code: Portfolio](https://github.com/MhmedMii/Portfolio). |
 | **GBG CRM** | Requirements review, test cases, functional testing, and business analysis. |
 | **AI-Powered Websites** | Built and deployed three websites with AI integration, REST APIs, and databases at NXTNOVA. |
 | **Motergy, Dawri Zain, and GoFeesha** | Coordinated software development and delivery at 50Studios. |
@@ -41,8 +39,6 @@ The interface includes a compact introduction, visual project gallery, responsiv
 Waypoint appears with the workspace overview screenshot from its GitHub README and a link to its public student-services demo. All student and staff records are fictional, changes stay in the visitor's browser, and production services and database connections are disabled. PostgreSQL is listed as a retained backend reference, consistent with the project's README.
 
 FORM and ARCTEX link to their public portfolio demos and source repositories. FORM uses fictional data and browser-only submissions; ARCTEX's external enquiry delivery has not been independently verified. Their case-study descriptions are sourced from their public GitHub READMEs. The FORM screenshot comes from its repository, and the ARCTEX screenshot shows its public demo homepage.
-
-The gallery represents the five software-project repositories pinned on [my GitHub profile](https://github.com/MhmedMii): Waypoint, FORM, ARCTEX, Flutter-Project (Kuwait Laundries), and Portfolio. The sixth pin, MhmedMii, is the profile README rather than a separate application. Kuwait Laundries is presented as a student prototype; accounts, saved locations and persistent reviews are future work. Its description is based on the repository README and Flutter source files, and it links to source code rather than a live demo.
 
 No package installation or build step is required.
 
