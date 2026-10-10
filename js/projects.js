@@ -25,7 +25,7 @@ export function initProjects() {
       image.src = project.image;
       image.alt = project.caption;
       image.width = 1440;
-      image.height = 1000;
+      image.height = project.image_height || 1000;
       figure.append(image, element('figcaption', project.caption));
       fragment.append(figure);
     }

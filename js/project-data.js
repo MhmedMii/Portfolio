@@ -1,24 +1,63 @@
-// Portfolio case studies. Navita links only to the separate public prototype.
+// روابط الديمو هني للمشاريع العامة بس
 export const projects = {
-  "navita": {
-    "title": "Navita Edu Walk-In",
-    "role": "Software Engineer",
-    "context": "Navita Edu",
-    "problem": "Client intake, follow-ups, visa applications and other services needed one clear reception workflow.",
-    "contribution": "I designed and developed the Walk-In application, bringing new-client intake, follow-ups and services together with live status updates.",
-    "delivery": "Centralized reception workflows and KPI tracking give employees and managers visibility into customer progress and operational updates.",
+  "waypoint": {
+    "title": "Waypoint — Student Services Platform",
+    "role": "Software Developer",
+    "context": "Bilingual student services",
+    "problem": "Education consultancy teams needed one workspace for student intake, counselor assignments, follow-ups, visa and exam applications and management reporting.",
+    "contribution": "I developed student intake and service interfaces, counselor queues and workflow transitions, bilingual layouts and browser-based demo persistence, with domain logic separated from application and infrastructure concerns.",
+    "delivery": "A responsive public demo with fictional student and staff records, management screens, Excel reports and simulated applications and payments. The project includes Vitest and Playwright checks, with production services and database connections disabled.",
     "stack": [
       "React",
       "Next.js",
-      "SQL",
-      "Docker",
-      "Neon",
+      "TypeScript",
+      "Vitest",
+      "Playwright",
       "Vercel"
     ],
-    "image": "assets/navita-sign-in.webp",
-    "caption": "Actual Navita project screenshot. The visitor link opens a separate prototype.",
-    "url": "https://waypoint-student-services-demo.vercel.app/login",
-    "link_label": "Visit prototype"
+    "image": "assets/waypoint-overview.png",
+    "image_height": 1630,
+    "caption": "Waypoint public demo workspace overview, using fictional student and staff records.",
+    "url": "https://waypoint-student-services-demo.vercel.app/",
+    "link_label": "Visit demo"
+  },
+  "form-request": {
+    "title": "FORM — Employee Request System",
+    "role": "Software Developer",
+    "context": "Bilingual employee requests",
+    "problem": "Workplace requests needed a clearer submission process, with questions and validation tailored to each request type.",
+    "contribution": "I built the React and Next.js interface, conditional question flows, request validation, Arabic and English support, browser-based drafts and downloadable simulated receipts.",
+    "delivery": "A responsive public demo covering five request types, review before submission and automated business-rule and browser checks. The demo uses fictional profiles and keeps requests in the browser.",
+    "stack": [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "CSS",
+      "Playwright"
+    ],
+    "image": "assets/form-request-demo.png",
+    "caption": "FORM public demo request types, using a fictional employee profile.",
+    "url": "https://form-request-demo.vercel.app/",
+    "link_label": "Visit demo"
+  },
+  "arctex": {
+    "title": "ARCTEX Design Solutions",
+    "role": "Freelance Website Developer",
+    "context": "Architecture and design / Kuwait",
+    "problem": "An architecture and design firm needed a website to present its projects and services and give potential clients a clear enquiry path.",
+    "contribution": "I developed the five-page frontend, responsive layouts, Arabic and English content with RTL support, persistent themes, interactive project previews and the enquiry form's external endpoint integration.",
+    "delivery": "A static website prepared for Vercel, with dedicated project, firm, services and contact pages. The public demo showcases the frontend; external enquiry delivery is not independently verified.",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Google Apps Script Integration",
+      "Vercel"
+    ],
+    "image": "assets/arctex-demo.webp",
+    "caption": "ARCTEX Design Solutions public demo homepage.",
+    "url": "https://arctex-indol.vercel.app/",
+    "link_label": "Visit demo"
   },
   "nxtnova": {
     "title": "AI-Powered Websites",
