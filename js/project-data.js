@@ -8,9 +8,10 @@ export const projects = {
     "contribution": "I developed student intake and service interfaces, counselor queues and workflow transitions, bilingual layouts and browser-based demo persistence, with domain logic separated from application and infrastructure concerns.",
     "delivery": "A responsive public demo with fictional student and staff records, management screens, Excel reports and simulated applications and payments. The project includes Vitest and Playwright checks, with production services and database connections disabled.",
     "stack": [
-      "React",
       "Next.js",
+      "React",
       "TypeScript",
+      "PostgreSQL (backend reference)",
       "Vitest",
       "Playwright",
       "Vercel"
@@ -36,12 +37,13 @@ export const projects = {
       "Playwright"
     ],
     "image": "assets/form-request-demo.png",
+    "image_height": 960,
     "caption": "FORM public demo request types, using a fictional employee profile.",
     "url": "https://form-request-demo.vercel.app/",
     "link_label": "Visit demo"
   },
   "arctex": {
-    "title": "ARCTEX Design Solutions",
+    "title": "ARCTEX — Design Solutions",
     "role": "Freelance Website Developer",
     "context": "Architecture and design / Kuwait",
     "problem": "An architecture and design firm needed a website to present its projects and services and give potential clients a clear enquiry path.",
@@ -50,7 +52,7 @@ export const projects = {
     "stack": [
       "HTML5",
       "CSS3",
-      "JavaScript",
+      "JavaScript ES Modules",
       "Google Apps Script Integration",
       "Vercel"
     ],
@@ -58,6 +60,37 @@ export const projects = {
     "caption": "ARCTEX Design Solutions public demo homepage.",
     "url": "https://arctex-indol.vercel.app/",
     "link_label": "Visit demo"
+  },
+  "kuwait-laundries": {
+    "title": "Kuwait Laundries",
+    "role": "Student Developer",
+    "context": "Flutter coursework / Kuwait",
+    "problem": "Laundry businesses across Kuwait needed to be brought together in one app so customers could explore available services and locations.",
+    "contribution": "I developed the Flutter student project with laundry listing cards, a location directory, rating widgets and bottom navigation between Home, Locations and Settings.",
+    "delivery": "A Flutter and Dart mobile prototype using locally defined laundry data. Accounts, saved locations and persistent customer reviews are planned features in the README. The source is available in the pinned Flutter-Project repository.",
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Material Design"
+    ],
+    "url": "https://github.com/MhmedMii/Flutter-Project",
+    "link_label": "View source code"
+  },
+  "portfolio": {
+    "title": "Mohammed Mahmoud — Portfolio",
+    "role": "Developer",
+    "context": "Mohammed Mahmoud / Triple M",
+    "problem": "My software projects, technical skills and professional experience needed one place where visitors could explore the work and reach me.",
+    "contribution": "I built this static portfolio with project case studies, locally hosted assets, responsive layouts, theme support and keyboard-accessible navigation and dialogs.",
+    "delivery": "A portfolio published on Vercel using HTML, CSS and vanilla JavaScript modules, with no package installation or build step. The source is available in the pinned Portfolio repository.",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES Modules",
+      "Vercel"
+    ],
+    "url": "https://github.com/MhmedMii/Portfolio",
+    "link_label": "View source code"
   },
   "nxtnova": {
     "title": "AI-Powered Websites",
